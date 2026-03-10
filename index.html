@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="الشرقية للموبايل - خدمات احترافية لصيانة الهواتف وتجاوز حمايات FRP">
+  <meta name="theme-color" content="#0f172a">
+  <title>الشرقية للموبايل | خدمات الصيانة المتكاملة</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="animated-bg">
+    <div class="gradient-sphere sphere-1"></div>
+    <div class="gradient-sphere sphere-2"></div>
+    <div class="gradient-sphere sphere-3"></div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+          </svg>
+        </div>
+        <span class="logo-text">الشرقية للموبايل</span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+        <li><a href="#about" class="nav-link">من نحن</a></li>
+        <li><a href="#services" class="nav-link">خدماتنا</a></li>
+        <li><a href="#apps" class="nav-link">FRP Tools</a></li>
+        <li><a href="#contact" class="nav-link">اتصل بنا</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="القائمة">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>متخصصون في صيانة الهواتف</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="title-line">حلول احترافية</span>
+          <span class="title-line gradient-text">لصيانة الهواتف</span>
+        </h1>
+        <p class="hero-description">
+          نقدم خدمات متكاملة لصيانة الهواتف المحمولة، تجاوز حمايات FRP، واستبدال القطع التالفة بأحدث التقنيات
+        </p>
+        <div class="hero-buttons">
+          <a href="#apps" class="btn btn-primary">
+            <span>أدوات FRP</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>تواصل معنا</span>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-count="5000">0</span>
+            <span class="stat-label">عميل سعيد</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="10">0</span>
+            <span class="stat-label">سنوات خبرة</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="99">0</span>
+            <span class="stat-label">% نسبة الرضا</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <div class="screen-content">
+                <div class="app-icon"></div>
+                <div class="app-icon"></div>
+                <div class="app-icon"></div>
+                <div class="app-icon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card card-1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            <span>FRP Bypass</span>
+          </div>
+          <div class="floating-card card-2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            <span>صيانة شاشات</span>
+          </div>
+          <div class="floating-card card-3">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span>قطع أصلية</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-subtitle">من نحن</span>
+        <h2 class="section-title">خبرة تتجاوز <span class="highlight">عقداً</span> من الزمن</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3>ثقة ومصداقية</h3>
+          <p>نضمن لك الحفاظ على بياناتك وخصوصيتك أثناء عملية الصيانة</p>
+        </div>
+        <div class="about-card glass featured">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <h3>سرعة في الأداء</h3>
+          <p>نسلمك جهازك في أسرع وقت ممكن دون المساس بالجودة</p>
+        </div>
+        <div class="about-card glass">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+          </div>
+          <h3>قطع أصلية</h3>
+          <p>نستخدم فقط القطع الأصلية المعتمدة لضمان أفضل أداء</p>
+        </div>
+      </div>
+      <div class="about-info">
+        <div class="info-item">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="info-content">
+            <h4>الموقع</h4>
+            <p>الموصل - الساحل الأيسر - حي الانتصار</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="info-content">
+            <h4>ساعات العمل</h4>
+            <p>السبت - الخميس: 9 صباحاً - 9 مساءً</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-subtitle">خدماتنا</span>
+        <h2 class="section-title">حلول <span class="highlight">تقنية</span> متكاملة</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-tilt>
+          <div class="service-image">
+            <div class="image-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+          </div>
+          <div class="service-content">
+            <h3>صيانة الهواتف</h3>
+            <p>إصلاح جميع أعطال الهاردوير والسوفتوير بأحدث الأجهزة</p>
+            <a href="#contact" class="service-link">
+              <span>اطلب الخدمة</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="service-card" data-tilt>
+          <div class="service-image">
+            <div class="image-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="service-content">
+            <h3>تجاوز FRP</h3>
+            <p>فك حمايات Google Account لجميع أجهزة Samsung والأندرويد</p>
+            <a href="#apps" class="service-link">
+              <span>الأدوات</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="service-card" data-tilt>
+          <div class="service-image">
+            <div class="image-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+          </div>
+          <div class="service-content">
+            <h3>تبديل الشاشات</h3>
+            <p>استبدال شاشات AMOLED وLCD بقطع أصلية ضمان سنة</p>
+            <a href="#contact" class="service-link">
+              <span>اطلب الخدمة</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="apps" class="apps-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-subtitle">أدوات FRP</span>
+        <h2 class="section-title">تطبيقات <span class="highlight">التجاوز</span></h2>
+        <p class="section-description">اختر التطبيق المناسب لجهازك للوصول السريع إلى الإعدادات</p>
+      </div>
+      <div class="apps-filter">
+        <button class="filter-btn active" data-filter="all">الكل</button>
+        <button class="filter-btn" data-filter="samsung">سامسونج</button>
+        <button class="filter-btn" data-filter="google">Google</button>
+        <button class="filter-btn" data-filter="tools">أدوات</button>
+      </div>
+      <div class="apps-grid" id="appsGrid">
+        <a href="intent://com.sec.android.app.samsungapps/#Intent;scheme=android-app;end" class="app-card samsung" data-category="samsung">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #1428a0, #00c6ff);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          </div>
+          <span class="app-name">Galaxy Store</span>
+          <span class="app-category">سامسونج</span>
+        </a>
+        <a href="intent://com.google.android.googlequicksearchbox/#Intent;scheme=android-app;end" class="app-card google" data-category="google">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #4285f4, #34a853, #fbbc05, #ea4335);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+          </div>
+          <span class="app-name">Google Search</span>
+          <span class="app-category">Google</span>
+        </a>
+        <a href="intent://com.android.settings/#Intent;scheme=android-app;end" class="app-card tools" data-category="tools">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #757575, #424242);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 9h-2V7h-2v5H6v2h2v5h2v-5h2v-2z"/></svg>
+          </div>
+          <span class="app-name">الإعدادات</span>
+          <span class="app-category">نظام</span>
+        </a>
+        <a href="intent://com.google.android.setupwizard.qrprovision.QrScanActivity/#Intent;scheme=android-app;end" class="app-card tools" data-category="tools">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #00bcd4, #006064);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 11.75c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zm6 0c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37C11.96 5.98 16.08 8.42 20 8.42c.74 0 1.43-.09 2.07-.24C21.37 13.15 17.07 18 12 18z"/></svg>
+          </div>
+          <span class="app-name">QR Scan</span>
+          <span class="app-category">أدوات</span>
+        </a>
+        <a href="intent://com.activitymanager/#Intent;scheme=android-app;end" class="app-card tools" data-category="tools">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #ff9800, #e65100);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 9h-2V7h-2v5H6v2h2v5h2v-5h2v-2z"/></svg>
+          </div>
+          <span class="app-name">Activity Manager</span>
+          <span class="app-category">أدوات</span>
+        </a>
+        <a href="intent://com.google.android.gms/#Intent;scheme=promote_smartlock_scheme;end" class="app-card google" data-category="google">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #4caf50, #1b5e20);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6-9h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM12 6c1.1 0 2 .9 2 2v2h-4V8c0-1.1.9-2 2-2z"/></svg>
+          </div>
+          <span class="app-name">Smart Lock</span>
+          <span class="app-category">Google</span>
+        </a>
+        <a href="intent://com.sec.android.app.myfiles/#Intent;scheme=android-app;end" class="app-card samsung" data-category="samsung">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #ffcc00, #ff6f00);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z"/></svg>
+          </div>
+          <span class="app-name">ملفات سامسونج</span>
+          <span class="app-category">سامسونج</span>
+        </a>
+        <a href="intent://com.google.android.youtube/#Intent;scheme=android-app;end" class="app-card google" data-category="google">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #ff0000, #b71c1c);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.58 7.16c-.23-.86-.9-1.54-1.76-1.77C18.26 5 12 5 12 5s-6.26 0-7.8.38c-.86.24-1.54.92-1.77 1.78C2 8.72 2 12 2 12s0 3.28.42 4.84c.23.86.91 1.54 1.77 1.77C5.74 19 12 19 12 19s6.26 0 7.8-.38c.86-.23 1.54-.91 1.76-1.77C22 15.28 22 12 22 12s0-3.28-.42-4.84zM10 15V9l5.2 3-5.2 3z"/></svg>
+          </div>
+          <span class="app-name">YouTube</span>
+          <span class="app-category">Google</span>
+        </a>
+        <a href="intent://com.android.chrome/#Intent;scheme=android-app;end" class="app-card google" data-category="google">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #4285f4, #0d47a1);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          </div>
+          <span class="app-name">Chrome</span>
+          <span class="app-category">Google</span>
+        </a>
+        <a href="https://apps.samsung.com/appquery/appDetail.as?appId=com.sec.android.app.sbrowser" class="app-card samsung" data-category="samsung">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #1e88e5, #0d47a1);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          </div>
+          <span class="app-name">Samsung Browser</span>
+          <span class="app-category">سامسونج</span>
+        </a>
+        <a href="intent://com.sec.android.app.popupcalculator/#Intent;scheme=android-app;end" class="app-card samsung" data-category="samsung">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #4caf50, #1b5e20);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 2h2v2h-2V5zm0 4h2v2h-2V9zm0 4h2v2h-2v-2zM5 15h4v2H5v-2zm0-4h4v2H5v-2zm0-4h4v2H5V7zm14 8h-4v-2h4v2zm0-4h-4v-2h4v2zm0-4h-4V7h4v2z"/></svg>
+          </div>
+          <span class="app-name">الحاسبة</span>
+          <span class="app-category">سامسونج</span>
+        </a>
+        <a href="intent://com.rrivenllc.shieldx/#Intent;scheme=android-app;end" class="app-card tools" data-category="tools">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #9c27b0, #4a148c);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+          </div>
+          <span class="app-name">Alliance Shield</span>
+          <span class="app-category">أمان</span>
+        </a>
+        <a href="https://galaxy.store/setting" class="app-card tools" data-category="tools">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #607d8b, #263238);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3c-.46-4.17-3.77-7.48-7.94-7.94V1h-2v2.06C6.83 3.52 3.52 6.83 3.06 11H1v2h2.06c.46 4.17 3.77 7.48 7.94 7.94V23h2v-2.06c4.17-.46 7.48-3.77 7.94-7.94H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/></svg>
+          </div>
+          <span class="app-name">Hidden Settings</span>
+          <span class="app-category">أدوات</span>
+        </a>
+        <a href="intent://com.google.android.gsf.login.LoginActivity/#Intent;scheme=android-app;end" class="app-card google" data-category="google">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #db4437, #b71c1c);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+          </div>
+          <span class="app-name">Google Login</span>
+          <span class="app-category">Google</span>
+        </a>
+        <a href="intent://com.sec.android.app.launcher/#Intent;scheme=android-app;end" class="app-card samsung" data-category="samsung">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #3f51b5, #1a237e);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l-5.5 9h11z M12 5.84L13.93 9h-3.87z M17.5 13c-2.49 0-4.5 2.01-4.5 4.5s2.01 4.5 4.5 4.5 4.5-2.01 4.5-4.5-2.01-4.5-4.5-4.5z M5 21.5h8v-8H5v8z"/></svg>
+          </div>
+          <span class="app-name">Samsung Launcher</span>
+          <span class="app-category">سامسونج</span>
+        </a>
+        <a href="tel:+9647829993310" class="app-card tools" data-category="tools">
+          <div class="app-icon-wrapper">
+            <div class="app-icon-bg" style="background: linear-gradient(135deg, #4caf50, #1b5e20);"></div>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          </div>
+          <span class="app-name">الاتصال السريع</span>
+          <span class="app-category">اتصال</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="section-container">
+      <div class="contact-wrapper">
+        <div class="contact-info-side">
+          <div class="section-header left">
+            <span class="section-subtitle">تواصل معنا</span>
+            <h2 class="section-title">جاهزون <span class="highlight">لخدمتك</span></h2>
+          </div>
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="method-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="method-details">
+                <h4>اتصل بنا</h4>
+                <a href="tel:+9647829993310">+964 782 999 3310</a>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="method-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="method-details">
+                <h4>البريد الإلكتروني</h4>
+                <a href="mailto:7mmmr@bk.ru">7mmmr@bk.ru</a>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="method-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="method-details">
+                <h4>الموقع</h4>
+                <p>الموصل - الساحل الأيسر - حي الانتصار</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-side glass">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" required placeholder=" ">
+              <label for="name">الاسم الكامل</label>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="phone" required placeholder=" ">
+              <label for="phone">رقم الهاتف</label>
+            </div>
+            <div class="form-group">
+              <select id="service" required>
+                <option value="">اختر الخدمة</option>
+                <option value="repair">صيانة عامة</option>
+                <option value="screen">تبديل شاشة</option>
+                <option value="frp">تجاوز FRP</option>
+                <option value="software">مشاكل سوفتوير</option>
+              </select>
+              <label for="service">نوع الخدمة</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="4" required placeholder=" "></textarea>
+              <label for="message">تفاصيل الطلب</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>إرسال الطلب</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <span class="logo-text">الشرقية للموبايل</span>
+          </div>
+          <p>نقدم حلولاً تقنية متكاملة لصيانة الهواتف المحمولة منذ أكثر من عقد</p>
+        </div>
+        <div class="footer-links">
+          <h4>روابط سريعة</h4>
+          <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#apps">أدوات FRP</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>خدماتنا</h4>
+          <ul>
+            <li><a href="#">صيانة الهاردوير</a></li>
+            <li><a href="#">تجاوز FRP</a></li>
+            <li><a href="#">تبديل الشاشات</a></li>
+            <li><a href="#">برمجة الأجهزة</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 - 2026 الشرقية للموبايل. جميع الحقوق محفوظة.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="#" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+          </a>
+          <a href="https://wa.me/9647829993310" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">
+    <div class="toast-content">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <span>تم إرسال طلبك بنجاح!</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
